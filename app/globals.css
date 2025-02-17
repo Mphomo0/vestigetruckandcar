@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Stronger Floating animation */
+@keyframes floating {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px); /* Increased movement */
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* Applying stronger floating animation to the div */
+.animate-floating {
+  animation: floating 2s ease-in-out infinite; /* Reduced time for faster floating */
+}
