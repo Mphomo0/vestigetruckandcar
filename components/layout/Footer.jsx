@@ -18,9 +18,9 @@ export default function Footer() {
 
         {/* right section */}
         <div className='w-full md:w-auto flex justify-center md:justify-end space-x-6 text-sm font-bold'>
-          <Link href='/terms'>Terms & Conditions</Link>
+          <Link href='/terms-conditions'>Terms & Conditions</Link>
           <Link href='/claim'>Claim</Link>
-          <Link href='/privacy'>Privacy Policy</Link>
+          <Link href='/privacy-policy'>Privacy Policy</Link>
         </div>
       </div>
     </footer>
