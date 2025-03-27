@@ -6,6 +6,7 @@ import Image from 'next/image'
 import { X, Menu } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import Phone from '@/public/images/icons/7.png'
+import VestigeLogo from '@/public/images/vestigeLogo.png'
 
 export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
@@ -42,15 +43,19 @@ export default function Navbar() {
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
         <div className='flex justify-between items-center'>
           {/* Logo and Phone Section */}
-          <div className='flex items-center space-x-4 lg:space-x-8'>
+          <div className='flex items-center space-x-2 lg:space-x-4'>
             <Link href='/' className='flex items-center py-2'>
-              <span className='text-xl sm:text-2xl font-bold text-red-500 whitespace-nowrap'>
-                TruckAndCar
-              </span>
+              <Image
+                src={VestigeLogo}
+                alt='Vestige Logo'
+                width={80}
+                height={80}
+              />
             </Link>
 
             {/* Phone Number - Hidden on mobile and small tablets */}
             <div className='hidden lg:flex items-center space-x-2 text-white'>
+              <span className='border-l border-white h-10 mx-2 hidden md:inline'></span>
               {/* <Phone size={20} className='text-red-500' /> */}
               <Image src={Phone} alt='phone icon' width={40} height={40} />
               <div className='flex flex-col'>
@@ -95,7 +100,7 @@ export default function Navbar() {
 
         {/* Mobile Menu Overlay */}
         {isMobileMenuOpen && (
-          <div className='lg:hidden fixed inset-0 top-[65px] bg-black bg-opacity-95 z-50 overflow-y-auto'>
+          <div className='lg:hidden fixed inset-0 top-[100px] bg-black bg-opacity-95 z-50 overflow-y-auto'>
             <div className='flex flex-col items-center pt-6 pb-8 space-y-6'>
               {navLinks.map((link) => (
                 <Link

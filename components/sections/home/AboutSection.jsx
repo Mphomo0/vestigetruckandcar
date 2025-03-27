@@ -81,7 +81,7 @@ export default function AboutSection() {
                 delay: 0.3,
               }}
             >
-              42
+              11
               <span className='text-3xl align-super'>+</span>
             </motion.div>
             <div className='text-2xl font-semibold mt-4'>

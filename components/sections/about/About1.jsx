@@ -17,7 +17,7 @@ export default function About1() {
               />
               <div className='absolute bottom-0 right-0 bg-red-600 h-32 md:h-40 p-6 md:p-8 border-4 md:border-8 border-white px-4 flex flex-col items-center justify-center'>
                 <h1 className='text-4xl md:text-5xl font-bold text-white text-center'>
-                  25<span>+</span>
+                  11<span>+</span>
                 </h1>
                 <h6 className='text-base md:text-lg text-white text-center'>
                   Years Experience
@@ -54,6 +54,11 @@ export default function About1() {
             <Link href='/services'>
               <span className='border border-gray-400 px-5 md:px-6 py-3 md:py-5 hover:bg-red-500 hover:text-white transition duration-300 ease-in-out mt-6 inline-block tracking-wider text-sm md:text-base'>
                 OUR SERVICES
+              </span>
+            </Link>
+            <Link href='/services'>
+              <span className='border border-gray-400 px-5 md:px-6 py-3 md:py-5 hover:bg-red-500 hover:text-white transition duration-300 ease-in-out mt-6 inline-block tracking-wider text-sm md:text-base ml-4'>
+                OUR PROFILE
               </span>
             </Link>
           </div>

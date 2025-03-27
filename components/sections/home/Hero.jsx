@@ -65,7 +65,7 @@ export default function Hero() {
               : 'opacity-0 pointer-events-none'
           }`}
         >
-          <div className='w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center mb-24 mt-24'>
+          <div className='w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center justify-center mb-4 md:mb-8 mt-16'>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 items-center'>
               <div className='space-y-3 sm:space-y-4 md:space-y-6 text-center md:text-left'>
                 <h3 className='text-red-500 font-semibold tracking-wide text-sm sm:text-base'>
@@ -74,13 +74,13 @@ export default function Hero() {
                 <h1 className='text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-bold tracking-tight text-white'>
                   {slide.heading}
                 </h1>
-                <p className='text-white text-sm sm:text-base max-w-lg mx-auto md:mx-0 p-4'>
+                <p className='text-white text-sm sm:text-base max-w-lg mx-auto md:mx-0'>
                   {slide.description}
                 </p>
                 <Link href={slide.buttonLink}>
                   <Button
                     size='lg'
-                    className='bg-red-600 hover:bg-red-700 text-white px-4 sm:px-6 md:px-8 py-4 sm:py-6 md:py-8 text-sm sm:text-base'
+                    className='bg-red-600 hover:bg-red-700 text-white px-4 sm:px-6 md:px-8 py-4 sm:py-6 md:py-8 text-sm sm:text-base mt-6'
                   >
                     {slide.buttonText}
                   </Button>

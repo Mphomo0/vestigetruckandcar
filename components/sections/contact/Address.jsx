@@ -14,9 +14,11 @@ export default function Address() {
           </div>
           <h3 className='text-xl font-bold text-center mb-4'>Email Address</h3>
           <p className='text-center text-gray-600 mb-8'>
-            Info@webmail.co.za
+            prishan@vestige.co.za
             <br />
-            jobs@webmail.co.za
+            vernen@vestige.co.za
+            <br />
+            kevin@vestige.co.za
           </p>
         </div>
 
@@ -29,11 +31,13 @@ export default function Address() {
             Contact Numbers
           </h3>
           <p className='text-center text-gray-600 mb-8'>
-            prishan@vestige.co.za
+            <span className='font-bold'>Office:</span> 072 637 0330
             <br />
-            vernen@vestige.co.za
+            <span className='font-bold'>Prishan:</span> 072 637 0330
             <br />
-            kevin@vestige.co.za
+            <span className='font-bold'>Vernen:</span> 082 822 5283
+            <br />
+            <span className='font-bold'>Kevin:</span> 063 699 5438
           </p>
         </div>
         {/* Office Address card */}
