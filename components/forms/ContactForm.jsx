@@ -45,7 +45,7 @@ export default function ContactForm() {
                 size={20}
               />
               <Input
-                id='fullName'
+                id='Name'
                 type='text'
                 placeholder='Enter your name'
                 className='w-full pl-10 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 p-8'

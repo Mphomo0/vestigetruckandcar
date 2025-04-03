@@ -2,6 +2,7 @@
 
 import WhatsAppWidget from 'react-whatsapp-chat-widget'
 import 'react-whatsapp-chat-widget/index.css'
+import VestigeLogo from '@/public/images/vestigeLogo.png'
 
 export default function Widget() {
   return (
@@ -17,10 +18,10 @@ export default function Widget() {
       iconSize='60'
       iconColor='white'
       iconBgColor='green'
-      headerIcon='https://www.pdapps.net.in/_next/static/media/android-chrome-192x192.9a39c2c7.png'
-      headerIconColor='pink'
-      headerTxtColor='black'
-      headerBgColor='tomato'
+      headerIcon='/images/vestigeLogo.png'
+      headerIconColor='red'
+      headerTxtColor='white'
+      headerBgColor='red'
       headerTitle='Kevin'
       headerCaption='Online'
       bodyBgColor='#bbb'

@@ -9,7 +9,7 @@ export default function ServicesSection() {
         <div className='relative flex justify-center'>
           <div className='relative w-full max-w-md sm:max-w-lg lg:max-w-xl'>
             <Image
-              src='/images/bg/aboutImage.jpg'
+              src='/images/bg/serviceImage.jpg'
               alt='Professional mechanics working on a vehicle'
               width={600}
               height={900}
@@ -23,31 +23,35 @@ export default function ServicesSection() {
         <div className='space-y-6 text-center lg:text-left'>
           <p className='text-red-600 font-semibold'>// RELIABLE SERVICES</p>
           <h2 className='text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900'>
-            We are Qualified & Professional
+            "Your Downtime Specialists"
             <span className='text-red-600'>.</span>
           </h2>
 
           <div className='border-l-4 border-red-600 pl-4'>
             <p className='text-lg text-slate-600'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore.
+              We provide expert maintenance and repair services for commercial
+              vehicles, ensuring top-quality workmanship with a focus on
+              customer satisfaction.
             </p>
           </div>
 
           <div className='flex flex-col md:flex-row gap-6'>
             <p className='text-slate-700 flex-1'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              We are Qualified & Professional at Vestige Truck & Car, offering
+              expert automotive services to keep your vehicle in top condition.
+              With a team of highly skilled technicians and a commitment to
+              excellence, we provide reliable repairs, maintenance, and
+              diagnostic solutions for all types of vehicles. Trust us to
+              deliver the highest quality service and customer satisfaction for
+              your automotive needs.
             </p>
 
             <ul className='grid gap-4 flex-1'>
               {[
-                '24/7 Online Support',
+                '24/7 Client Support',
                 'Expert Team',
-                'Pure Equipment',
-                'Unlimited Product',
+                'Quality Assurance',
+                'Approved Repairers',
               ].map((feature) => (
                 <li key={feature} className='flex items-center gap-3'>
                   <span className='flex items-center justify-center w-8 h-8 rounded-full bg-red-100'>
