@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata = {
-  title: 'Truck & Car Services',
+  title: 'Vestige Truck & Car Services',
   description:
     '24/7 commercial vehicle repairs and fleet maintenance services in Gauteng',
 }

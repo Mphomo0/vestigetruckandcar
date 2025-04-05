@@ -52,12 +52,16 @@ export default function About1() {
               advanced repair techniques.
             </p>
             <Link href='/services'>
-              <span className='border border-gray-400 px-5 md:px-6 py-3 md:py-5 hover:bg-red-500 hover:text-white transition duration-300 ease-in-out mt-6 inline-block tracking-wider text-sm md:text-base'>
+              <span className='border border-gray-400 px-5 md:px-6 py-3 md:py-5 hover:bg-red-500 hover:text-white transition duration-300 ease-in-out mt-6 inline-block tracking-wider text-sm md:text-base rounded'>
                 OUR SERVICES
               </span>
             </Link>
-            <Link href='/services'>
-              <span className='border border-gray-400 px-5 md:px-6 py-3 md:py-5 hover:bg-red-500 hover:text-white transition duration-300 ease-in-out mt-6 inline-block tracking-wider text-sm md:text-base ml-4'>
+            <Link
+              href='/images/VestigeCompanyProfile.pdf'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <span className='border border-gray-400 px-5 md:px-6 py-3 md:py-5 bg-red-500 text-white hover:bg-white hover:text-black transition duration-300 ease-in-out mt-6 inline-block tracking-wider text-sm md:text-base ml-4 rounded'>
                 OUR PROFILE
               </span>
             </Link>

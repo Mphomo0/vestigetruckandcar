@@ -8,11 +8,11 @@ import { Button } from '@/components/ui/button'
 
 const slides = [
   {
-    title: 'WELCOME TO VESTIGE TOWING SERVICES',
-    heading: 'Reliable Towing Solutions When You Need Them Most',
+    title: 'WELCOME TO VESTIGE TRAILER REPAIRS',
+    heading: 'Reliable Trailer Repair Solutions When You Need Them Most',
     description:
-      'At Vestige Auto, we offer prompt and professional towing services to get you back on the road quickly. Our experienced team is available 24/7 to assist with all your towing needs.',
-    image: '/images/bg/towtruck.png',
+      'At Vestige Auto, we offer prompt and professional trailer repair services to get you back on the road quickly. Our experienced team is available 24/7 to assist with all your trailer repair needs.',
+    image: '/images/bg/trailer.png',
     buttonText: 'GET ASSISTANCE',
     buttonLink: '/contact',
   },
