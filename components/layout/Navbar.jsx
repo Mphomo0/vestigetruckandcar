@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import { X, Menu } from 'lucide-react'
+import { X, Menu, LinkIcon } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import Phone from '@/public/images/icons/7.png'
 import VestigeLogo from '@/public/images/vestigeLogo.png'
@@ -62,9 +62,12 @@ export default function Navbar() {
                 <span className='text-xs sm:text-sm text-gray-300'>
                   Get Support
                 </span>
-                <span className='text-base sm:text-lg font-semibold'>
+                <Link
+                  className='text-base sm:text-lg font-semibold'
+                  href='tel:27114747070'
+                >
                   011-474-7070
-                </span>
+                </Link>
               </div>
             </div>
           </div>
@@ -123,7 +126,12 @@ export default function Navbar() {
                 <Image src={Phone} alt='phone icon' width={50} height={50} />
                 <div className='flex flex-col'>
                   <span className='text-sm text-gray-300'>Get Support</span>
-                  <span className='text-lg font-semibold'>011-474-7070</span>
+                  <Link
+                    href='tel:27114747070'
+                    className='text-lg font-semibold'
+                  >
+                    011-474-7070
+                  </Link>
                 </div>
               </div>
             </div>
