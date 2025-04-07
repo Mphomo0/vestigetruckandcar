@@ -35,11 +35,11 @@ export default function OurServices() {
           </h2>
         </div>
 
-        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 place-items-center'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-4 place-items-center space-x-2'>
           {services.map((service) => (
             <div
               key={service.category}
-              className='group h-80 w-full sm:w-80 md:w-96 lg:w-full max-w-sm'
+              className='group h-80 w-full sm:w-80 md:w-full lg:w-full max-w-sm'
             >
               <div className='relative h-full w-full rounded-xl shadow-xl transition-transform duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]'>
                 {/* Front face with image */}
